@@ -1,0 +1,49 @@
+/* 
+###############
+#   GENERICS  #
+############### 
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+###############
+#    DEBUG    #
+############### 
+*/
+.border {
+  border: 1px solid black;
+}
+
+/* 
+###############
+#    UTILS    #
+############### 
+*/
+
+/* 
+###############
+#   LAYOUT    #
+############### 
+*/
+/* main */
+main {
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #282828;
+}
+
+/* 
+###############
+# RESPONSIVE  #
+############### 
+*/
