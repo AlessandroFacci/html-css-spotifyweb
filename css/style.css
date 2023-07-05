@@ -77,25 +77,87 @@ footer {
   display: fixed;
 }
 
-footer img {
+.reproduction {
+  display: flex;
+  align-items: center;
+}
+
+.reproduction img {
   width: 50px;
   height: 50px;
   vertical-align: middle;
 }
 
+.reproduction h4,
+p {
+  color: #c1c1c1;
+  margin: 0 1rem;
+}
+
+.reproduction h4 {
+  font-weight: bolder;
+}
+
+.reproduction-icon {
+  display: flex;
+  color: #c1c1c1;
+  margin: 2rem;
+}
+
+.reproduction-icon i {
+  margin: 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player .fa-solid {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.player .fa-regular {
+  margin: 0 1rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  vertical-align: sub;
+}
+
+.bar span {
+  font-size: 0.8rem;
+  color: #c1c1c1;
+  font-weight: bolder;
+}
+
 .progress-bar-container {
   background-color: #5a5a5a;
   height: 5px;
-  width: 400px;
+  width: 600px;
   border-radius: 1rem;
   display: inline-block;
+  margin: 2rem 2rem 0 2rem;
 }
 
 .progress-bar {
   background-color: #c1c1c1;
   height: 5px;
-  width: 25%;
+  width: 20%;
   border-radius: 1rem;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+}
+
+.volume i {
+  margin: 0 0.5rem;
+  color: #c1c1c1;
 }
 
 .progress-bar-container-vol {
@@ -104,6 +166,7 @@ footer img {
   width: 100px;
   border-radius: 1rem;
   display: inline-block;
+  margin-left: 0.5rem;
 }
 
 .progress-bar-vol {
