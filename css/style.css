@@ -42,6 +42,13 @@ main {
   background-color: #000000;
 }
 
+/* header */
+#header {
+  width: 100% - 300px;
+  height: 100px;
+  background-color: #080b12;
+}
+
 /* footer */
 footer {
   width: 100%;
