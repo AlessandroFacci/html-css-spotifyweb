@@ -164,6 +164,8 @@ main {
   background-color: #141922;
 }
 
+/* HEADER */
+
 header {
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -171,6 +173,27 @@ header {
   top: 0;
   left: 0;
 }
+
+header button {
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+header button a {
+  text-decoration: none;
+  color: white;
+}
+
+.upgrade {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* CONTENT */
 
 #content {
   width: 100%;
