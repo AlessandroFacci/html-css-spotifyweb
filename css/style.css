@@ -156,6 +156,22 @@ body {
   font-size: 1.3rem;
 }
 
+/* MAIN */
+
+main {
+  display: flex;
+  background-color: #141922;
+}
+
+header {
+  height: 100px;
+  background-color: #080b12;
+}
+
+#content {
+  width: calc(100% - 100px);
+}
+
 /* FOOTER */
 footer {
   width: 100%;
