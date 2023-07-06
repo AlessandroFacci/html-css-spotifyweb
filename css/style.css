@@ -205,6 +205,25 @@ header button a {
   color: white;
 }
 
+.menu-link ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu-link li {
+  padding: 1rem;
+}
+
+.menu-link li a {
+  text-decoration: none;
+  color: #73767b;
+}
+
+.menu-link li:first-child > a {
+  border-bottom: 3px solid #adff2f;
+}
+
 /* FOOTER */
 footer {
   width: 100%;
