@@ -122,6 +122,11 @@ body {
   margin-left: 10px;
 }
 
+.playlist-list {
+  overflow: auto;
+  max-height: 350px;
+}
+
 .playlist-list li {
   color: #646464;
   margin: 1rem;
@@ -129,7 +134,8 @@ body {
 }
 
 .user-nav {
-  margin-top: 270px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .user-nav .download {
@@ -404,5 +410,11 @@ footer {
 /* 
 ###############
 # RESPONSIVE  #
+############### 
+*/
+
+/* 
+###############
+#    HOVER    #
 ############### 
 */
