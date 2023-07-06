@@ -28,9 +28,15 @@
   margin-right: auto;
   padding: 0 1rem;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .flex {
   display: flex;
 }
+
 .space-between {
   justify-content: space-between;
 }
@@ -48,9 +54,8 @@
 #   LAYOUT    #
 ############### 
 */
-/* main */
 
-/* navbar */
+/* NAVBAR */
 #navbar {
   width: 300px;
   height: calc(100vh - 120px);
@@ -59,6 +64,7 @@
 
 .navigation {
   padding: 1.5rem;
+  height: 100%;
 }
 
 .navigation li {
@@ -119,7 +125,7 @@
 }
 
 .user-nav {
-  margin-top: 300px;
+  margin-top: 270px;
 }
 
 .user-nav .download {
@@ -150,9 +156,7 @@
   font-size: 1.3rem;
 }
 
-/* header */
-
-/* footer */
+/* FOOTER */
 footer {
   width: 100%;
   height: 120px;
