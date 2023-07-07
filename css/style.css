@@ -429,6 +429,12 @@ footer {
   color: white;
 }
 
+.home li:hover {
+  cursor: pointer;
+  color: white;
+  border-left: 3px solid #adff2f;
+}
+
 /* header */
 header button:hover {
   font-size: 0.9rem;
