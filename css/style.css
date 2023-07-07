@@ -275,6 +275,14 @@ header button a {
 
 .img-card {
   width: 100%;
+  /* position: relative; */
+}
+
+.card i {
+  position: absolute;
+  top: 4.3rem;
+  left: 3.7rem;
+  display: none;
 }
 
 .img-card img {
@@ -303,6 +311,7 @@ footer {
   height: 120px;
   padding: 0 1rem;
   background-color: #282828;
+  flex-grow: 1;
 }
 
 .reproduction {
@@ -448,6 +457,18 @@ header button:hover {
   cursor: pointer;
   color: white;
   border-bottom: 3px solid #adff2f;
+}
+
+/* card */
+
+.card img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.card i:hover {
+  cursor: pointer;
+  display: block;
 }
 
 /* footer */
