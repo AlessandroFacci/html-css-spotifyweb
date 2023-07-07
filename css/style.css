@@ -69,6 +69,10 @@ body {
 .navigation {
   padding: 1.5rem;
   height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .navigation li {
@@ -124,7 +128,7 @@ body {
 
 .playlist-list {
   overflow: auto;
-  max-height: 350px;
+  max-height: 250px;
 }
 
 .playlist-list li {
@@ -172,6 +176,7 @@ main {
   display: flex;
   height: calc(100vh - 120px);
   background-color: #141922;
+  overflow: hidden;
 }
 
 /* HEADER */
