@@ -80,7 +80,8 @@ body {
 }
 
 .logo img {
-  width: 80%;
+  width: 70%;
+  margin-left: 1.3rem;
 }
 
 .home {
@@ -89,12 +90,14 @@ body {
 }
 
 .home span {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin: 0.5rem;
 }
 
-.home i {
-  font-size: 1.8rem;
-  margin: 0.7rem 0.5rem 0 0;
+.home svg {
+  width: 2rem;
+  vertical-align: middle;
+  margin: 0.3rem;
 }
 
 .playlist {
@@ -103,27 +106,27 @@ body {
 
 .playlist h3 {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 2rem 0 0 0;
 }
 
 .playlist span {
   color: #646464;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .square {
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   background-color: #c1c1c1;
   margin: 1rem 0 0 0;
   display: inline-block;
 }
 
 .square i {
-  font-size: 2rem;
-  margin-top: 10px;
-  margin-left: 10px;
+  font-size: 1.5rem;
+  margin-top: 6px;
+  margin-left: 7px;
 }
 
 .playlist-list {
@@ -133,8 +136,8 @@ body {
 
 .playlist-list li {
   color: #646464;
-  margin: 1rem;
-  font-size: 1.2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
 }
 
 .user-nav {
@@ -145,7 +148,7 @@ body {
 .user-nav .download {
   color: #646464;
   margin: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .user-nav hr {
@@ -159,7 +162,7 @@ body {
 }
 
 .user i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   vertical-align: middle;
   margin-right: 0.5rem;
 }
@@ -167,7 +170,7 @@ body {
 .user h3 {
   display: inline-block;
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* MAIN */
