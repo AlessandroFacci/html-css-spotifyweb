@@ -240,35 +240,39 @@ header button a {
 .menu-link li a {
   text-decoration: none;
   color: #73767b;
+  font-size: 0.8rem;
 }
 
 /* CONTAINER */
 
 .recently h2 {
   margin: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .created h2 {
   margin: 2rem 1rem 1rem 1rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .created p {
   margin: 1rem 0 2rem 1rem;
+  font-size: 0.8rem;
 }
 
 .popular h2 {
   margin: 2rem 1rem 1rem 1rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .popular p {
   margin: 1rem 0 2rem 1rem;
+  font-size: 0.8rem;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -305,7 +309,15 @@ header button a {
 }
 
 .content-card * {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
+}
+
+.content-card h3 {
+  font-size: 1.1rem;
+}
+
+.content-card p {
+  font-size: 0.8rem;
 }
 
 /* FOOTER */
