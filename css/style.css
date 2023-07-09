@@ -395,7 +395,7 @@ footer {
 .progress-bar-container {
   background-color: #5a5a5a;
   height: 5px;
-  width: 600px;
+  width: 550px;
   border-radius: 1rem;
   display: inline-block;
   margin: 0 2rem 0 2rem;
@@ -439,7 +439,106 @@ footer {
 # RESPONSIVE  #
 ############### 
 */
+/* large: <1200px */
+@media screen and (max-width: 1200px) {
+  .progress-bar-container {
+    max-width: 400px;
+  }
+}
 
+/* medium: ≤ 992px */
+@media screen and (max-width: 992px) {
+  .progress-bar-container {
+    max-width: 300px;
+  }
+  .card {
+    width: calc(100% / 5);
+  }
+}
+
+/* small: ≤ 768px */
+@media screen and (max-width: 768px) {
+  .progress-bar-container {
+    max-width: 150px;
+    margin: 0 1rem 0 1rem;
+  }
+  .card {
+    width: calc(100% / 3);
+  }
+  .reproduction img {
+    width: 40px;
+    height: 40px;
+  }
+  .reproduction h4 {
+    margin: 0 0.5rem;
+    font-size: 0.7rem;
+  }
+  .reproduction p {
+    margin: 0 0.5rem;
+    font-size: 0.5rem;
+  }
+  .reproduction-icon {
+    margin: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .reproduction-icon i {
+    margin: 0 0.3rem;
+    font-size: 0.9rem;
+  }
+  .volume i {
+    margin: 0 0.3rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* extrasmall: ≤ 576px */
+@media screen and (max-width: 576px) {
+  .progress-bar-container {
+    max-width: 150px;
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  .player .fa-solid {
+    margin: 0 0.5rem;
+  }
+  .player .fa-regular {
+    margin: 0 0.5rem;
+  }
+  .progress-bar-container-vol {
+    max-width: 70px;
+    margin-left: 0.3rem;
+  }
+  .reproduction-icon i {
+    margin: 0 0.3rem;
+    font-size: 0.8rem;
+  }
+  .volume i {
+    margin: 0 0.3rem;
+    font-size: 0.7rem;
+  }
+  #navbar {
+    width: 50px;
+  }
+  .navigation {
+    padding: 0.2rem;
+  }
+  #navbar span,
+  p,
+  h3,
+  hr,
+  .playlist-list,
+  .square,
+  .user h3,
+  .logo {
+    display: none;
+  }
+  .home svg {
+    width: 1rem;
+    margin: 0;
+  }
+  .navigation {
+    padding: 0;
+}
 /* 
 ###############
 #    HOVER    #
