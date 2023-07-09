@@ -415,6 +415,7 @@ footer {
   height: 5px;
   width: 20%;
   border-radius: 1rem;
+  position: relative;
 }
 
 .volume {
@@ -437,10 +438,24 @@ footer {
 }
 
 .progress-bar-vol {
+  display: block;
   background-color: #c1c1c1;
   height: 5px;
   width: 25%;
   border-radius: 1rem;
+  position: relative;
+}
+
+.ball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  left: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
 /* 
@@ -649,4 +664,20 @@ footer .player .fa-regular:hover {
   cursor: pointer;
   color: white;
   font-size: 2.2rem;
+}
+
+.progress-bar-container-vol:hover .ball {
+  display: block;
+}
+
+.progress-bar-container-vol:hover .progress-bar-vol {
+  background-color: #adff2f;
+}
+
+.progress-bar-container:hover .ball {
+  display: block;
+}
+
+.progress-bar-container:hover .progress-bar {
+  background-color: #adff2f;
 }
