@@ -89,6 +89,10 @@ body {
   margin: 0.5rem;
 }
 
+.logo2 {
+  display: none;
+}
+
 .home {
   color: #646464;
   margin: 1rem;
@@ -449,15 +453,32 @@ footer {
   .progress-bar-container {
     max-width: 400px;
   }
+  .logo2 {
+    display: none;
+  }
 }
 
 /* medium: ≤ 992px */
 @media screen and (max-width: 992px) {
   .progress-bar-container {
-    max-width: 300px;
+    max-width: 250px;
   }
   .card {
     width: calc(100% / 5);
+  }
+  .progress-bar-container-vol {
+    width: 70px;
+  }
+  .volume i {
+    margin: 0 0.3rem;
+    font-size: 0.8rem;
+  }
+  .logo2 {
+    display: none;
+  }
+  .menu-link ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -466,6 +487,12 @@ footer {
   .progress-bar-container {
     max-width: 150px;
     margin: 0 1rem 0 1rem;
+  }
+  .player .fa-solid {
+    margin: 0 0.5rem;
+  }
+  .player .fa-regular {
+    margin: 0 0.5rem;
   }
   .card {
     width: calc(100% / 3);
@@ -491,10 +518,6 @@ footer {
     margin: 0 0.3rem;
     font-size: 0.9rem;
   }
-  .volume i {
-    margin: 0 0.3rem;
-    font-size: 0.8rem;
-  }
 }
 
 /* extrasmall: ≤ 576px */
@@ -503,12 +526,7 @@ footer {
     max-width: 150px;
     margin: 0 0.5rem 0 0.5rem;
   }
-  .player .fa-solid {
-    margin: 0 0.5rem;
-  }
-  .player .fa-regular {
-    margin: 0 0.5rem;
-  }
+
   .progress-bar-container-vol {
     max-width: 70px;
     margin-left: 0.3rem;
@@ -526,6 +544,9 @@ footer {
   }
   .navigation {
     padding: 0.2rem;
+  }
+  .logo2 {
+    display: block;
   }
   #navbar span,
   p,
@@ -550,11 +571,6 @@ footer {
     text-align: center;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
-  }
-
-  .menu-link ul {
-    display: flex;
-    flex-wrap: wrap;
   }
 }
 /* 
