@@ -84,6 +84,11 @@ body {
   margin-left: 1.3rem;
 }
 
+.logo2 img {
+  width: 60%;
+  margin: 0.5rem;
+}
+
 .home {
   color: #646464;
   margin: 1rem;
@@ -532,87 +537,89 @@ footer {
   .logo {
     display: none;
   }
-  .home svg {
-    width: 1rem;
-    margin: 0;
+  .navigation .home {
+    margin-left: 0;
+    margin-top: 0;
   }
-  .navigation {
+  /* .navigation {
     padding: 0;
-}
-/* 
+    margin: 0; */
+  }
+  /* 
 ###############
 #    HOVER    #
 ############### 
 */
 
-/* navbar */
-.navigation li:hover {
-  cursor: pointer;
-  color: white;
-}
+  /* navbar */
+  .navigation li:hover {
+    cursor: pointer;
+    color: white;
+  }
 
-.navigation span:hover {
-  cursor: pointer;
-  color: white;
-}
+  .navigation span:hover {
+    cursor: pointer;
+    color: white;
+  }
 
-.home li:hover {
-  cursor: pointer;
-  color: white;
-  border-left: 3px solid #adff2f;
-}
+  .home li:hover {
+    cursor: pointer;
+    color: white;
+    border-left: 3px solid #adff2f;
+  }
 
-/* header */
-header button:hover {
-  font-size: 0.9rem;
-  padding: 1.2rem 3.2rem;
-  margin-top: 20px;
-  margin-right: 5px;
-}
+  /* header */
+  header button:hover {
+    font-size: 0.9rem;
+    padding: 1.2rem 3.2rem;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
 
-/* menu link */
-.menu-link li a:hover {
-  cursor: pointer;
-  color: white;
-  border-bottom: 3px solid #adff2f;
-}
+  /* menu link */
+  .menu-link li a:hover {
+    cursor: pointer;
+    color: white;
+    border-bottom: 3px solid #adff2f;
+  }
 
-/* card */
+  /* card */
 
-.card img:hover {
-  cursor: pointer;
-  opacity: 0.3;
-}
+  .card img:hover {
+    cursor: pointer;
+    opacity: 0.3;
+  }
 
-.card i:hover {
-  cursor: pointer;
-  display: block;
-}
+  .card i:hover {
+    cursor: pointer;
+    display: block;
+  }
 
-/* footer */
-footer i:hover {
-  cursor: pointer;
-  color: white;
-}
+  /* footer */
+  footer i:hover {
+    cursor: pointer;
+    color: white;
+  }
 
-footer span:hover {
-  cursor: pointer;
-  color: white;
-}
+  footer span:hover {
+    cursor: pointer;
+    color: white;
+  }
 
-footer p:hover {
-  cursor: pointer;
-  color: white;
-}
+  footer p:hover {
+    cursor: pointer;
+    color: white;
+  }
 
-footer .player .fa-solid:hover {
-  cursor: pointer;
-  color: white;
-  font-size: 1.2rem;
-}
+  footer .player .fa-solid:hover {
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+  }
 
-footer .player .fa-regular:hover {
-  cursor: pointer;
-  color: white;
-  font-size: 2.2rem;
+  footer .player .fa-regular:hover {
+    cursor: pointer;
+    color: white;
+    font-size: 2.2rem;
+  }
 }
